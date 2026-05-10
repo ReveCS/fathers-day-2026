@@ -1,0 +1,72 @@
+{
+  "ai_tool": "claude",
+  "ttadk_version": "1.0.6",
+  "created_date": "2026-05-10",
+  "preferred_language": "en",
+  "preset": "ttadk/frontend",
+  "plugins": [
+    {
+      "name": "ttadk/core",
+      "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+      "branch": "master",
+      "commit": "6461657f3fa5ff2d828c88dd47e276709f588250",
+      "updated_at": "2026-05-10T07:54:17.635Z"
+    },
+    {
+      "name": "ttadk/frontend-platform",
+      "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+      "branch": "master",
+      "commit": "99b9189491d360521b9585f34b32a1194b4e425e",
+      "updated_at": "2026-05-10T07:54:17.679Z"
+    },
+    {
+      "name": "ttadk/common-test",
+      "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+      "branch": "master",
+      "commit": "54653cfea1536396c10f68331c4fd84f611a4fe4",
+      "updated_at": "2026-05-10T07:54:17.693Z"
+    },
+    {
+      "name": "ttadk/frontend-test",
+      "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+      "branch": "master",
+      "commit": "54653cfea1536396c10f68331c4fd84f611a4fe4",
+      "updated_at": "2026-05-10T07:54:17.700Z"
+    },
+    {
+      "name": "ttadk/lark_cli",
+      "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+      "branch": "master",
+      "commit": "c28a7d1658dd1eccbd79f07780a94949bd612ed1",
+      "updated_at": "2026-05-10T07:54:17.704Z"
+    },
+    {
+      "name": "ttadk/bits-unit-test-gen",
+      "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+      "branch": "master",
+      "commit": "ba97391594d2cde0eaa244f5b8a0c1260d61c28b",
+      "updated_at": "2026-05-10T07:54:20.333Z"
+    }
+  ],
+  "preset_state": {
+    "preset_ref": {
+      "name": "ttadk/frontend",
+      "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+      "branch": "master"
+    },
+    "managed_plugins": [
+      {
+        "git_repo": "git@code.byted.org:tiktok/ttadk_plugin_market.git",
+        "plugins": [
+          "ttadk/core",
+          "ttadk/frontend-platform",
+          "ttadk/common-test",
+          "ttadk/frontend-test",
+          "ttadk/lark_cli",
+          "ttadk/bits-unit-test-gen"
+        ]
+      }
+    ],
+    "last_synced_at": "2026-05-10T07:54:20.338Z"
+  }
+}

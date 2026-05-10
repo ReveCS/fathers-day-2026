@@ -31,9 +31,9 @@
                         <div class="fold-left"></div>
                         <div class="fold-right"></div>
 
-                        <!-- Pixel-art heart seal sitting on the crease -->
-                        <div class="heart-seal" id="heart-seal">
-                            <div class="heart-pixel"></div>
+                        <!-- Pixel-art orchid seal sitting on the crease -->
+                        <div class="orchid-seal" id="orchid-seal">
+                            <div class="orchid-pixel"></div>
                         </div>
                     </div>
 
@@ -63,34 +63,25 @@
 
                 <!-- Body — edit your text freely between the <p> tags -->
                 <div class="letter-body" id="letter-body">
-                    <p>I'm so happy I get to celebrate having you in my life on this special day. This year, I have been reminded time and time again how lucky I am to be your boyfriend. Let me remind you how amazing you are and why I love you:</p>
+                    <p>This is the first Mother's Day where I am truly away from home, but I want you to know that I miss you, I am thinking about you, and I am wishing you the best Mother's Day to the best Mom!</p>
 
-                    <p>I love the way you know all the lyrics to every song and turn showers/car rides into a karaoke.</p>
+                    <p>This last year was a year full of change, and I'm truly grateful that you were there to support me and be my side through it all. Moving across the country and starting a job has not been easy, and I couldn't have done it without you.</p>
                     
-                    <p>I love the way you're always right about everything.</p>
+                    <p>There are many things I miss about you and being at home with you, let me tell you a few of them:</p>
 
-                    <p>I love how we have such similar tastes in interests, humor, music, to the point that you put me on life.</p>
+                    <p>I miss your cooking, even though you think you cook nothing special, I think you cook the best food in the world. I miss watching things with you, either cooking shows or random things on Netflix or TV.</p>
 
-                    <p>I love how you effortlessly make me laugh and brighten up my day with tea and story times.</p>
+                    <p>I miss going grocery shopping with you and getting our favorite food together when we wanted. And I miss spending time with you in general!</p>
 
-                    <p>I love your cuddles and kisses and how you always make me feel at home.</p>
+                    <p>I'm glad that you were able to come to California recently, and I'm happy we got to have deep talks at night that we weren't able to before.</p>
 
-                    <p>Thank you for supporting me through all these crazy changes this past year. Even though I'm not by your side right now, my love for you is stronger than ever and I'm counting down the days til I see you again.</p>
-
-                    <p>Thank you for listening to me when I have rough days and for being understanding and forgiving when I mess up. You are the reason I have the strength to get up every day and what I work towards.</p>
-                    <p>
-                        Thank you for being a bright light in my life. You have a caring and considerate soul that puts others above yourself, and I love you for it. I'm especially so proud of how far you've come with your accomplishments recently, since I know things haven't been easy these last few months. You are worth more than any amount of money or accolades. I will always be by your side and cheerleading you through the highs and lows.
-                    </p>
-
-                    <p>There are a thousand little reasons I fall for you over and over again, and today I just wanted to put some of them into words.</p>
-
-                    <p>I'm looking forward to making more memories with you and spending our lives together. I love you and thank you for being mine.</p>
+                    <p>I'm looking forward to the future trips and plans we have, looking forward to the next time I see you again! Thank you for being the best mother I could ask for. I love you!</p>
                 </div>
 
                 <!-- Closing -->
                 <div class="letter-closing" id="letter-closing">
-                    <p class="closing-line">Forever yours,</p>
-                    <p class="closing-signature">Your Valentine 💌</p>
+                    <p class="closing-line">Love,</p>
+                    <p class="closing-signature">Avery 2026 💌</p>
                 </div>
 
                 <!-- Decorative bottom border line -->
@@ -104,211 +95,11 @@
         </div>
     </section>
 
-    <!-- Persistent flower field — lives outside scenes so it stays across S3→S4 -->
-    <div class="flower-field" id="flower-field"></div>
-
-    <!-- Scene 3: Will You Be My Valentine? -->
-    <section class="scene" id="scene-3">
-
-        <!-- The popup card — hidden until flowers finish -->
-        <div class="valentine-card" id="valentine-card">
-
-            <p class="vc-question">Will you be my</p>
-
-            <!--
-                PHOTO SLOT — replace src with your image path, e.g.:
-                src="assets/us.jpg"
-                The image is cropped to a rounded rectangle via CSS.
-            -->
-            <div class="vc-photo-wrap">
-                <img
-                    class="vc-photo"
-                    id="vc-photo"
-                    src="assets/valentines.png"
-                    alt="Our photo"
-                />
-                <!-- Fallback heart shown if image fails to load -->
-                <div class="vc-photo-fallback" id="vc-photo-fallback">💖</div>
-            </div>
-
-            <p class="vc-valentine">Valentine?</p>
-
-            <div class="vc-buttons">
-                <button class="vc-btn vc-btn--yes"  id="btn-yes">Yes! 💖</button>
-                <button class="vc-btn vc-btn--no"   id="btn-no">No 🙈</button>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Scene 4: Surprise Gifts -->
-    <section class="scene" id="scene-4">
-
-        <div class="gifts-wrapper" id="gifts-wrapper">
-
-            <!-- Scrollable card -->
-            <article class="gifts-card" id="gifts-card">
-
-                <!-- Floating decorative hearts -->
-                <div class="gifts-hearts" aria-hidden="true">
-                    <span class="gh gh-1">♥</span>
-                    <span class="gh gh-2">♥</span>
-                    <span class="gh gh-3">♥</span>
-                    <span class="gh gh-4">♥</span>
-                    <span class="gh gh-5">♥</span>
-                    <span class="gh gh-6">♥</span>
-                </div>
-
-                <div class="gifts-rule"></div>
-
-                <!-- Title — typewritten by JS -->
-                <h1 class="gifts-title" id="gifts-title"></h1>
-
-                <p class="gifts-subtitle" id="gifts-subtitle">
-                    Three little surprises, just for you 🎀
-                </p>
-
-                <!-- Three gift box portals -->
-                <div class="gifts-grid" id="gifts-grid">
-
-                    <!-- Gift 1 -->
-                    <div class="gift-portal" id="gift-1" data-scene="5">
-                        <div class="gift-box gift-box--pink">
-                            <div class="gift-lid">
-                                <div class="gift-lid-ribbon"></div>
-                            </div>
-                            <div class="gift-body">
-                                <div class="gift-body-ribbon"></div>
-                            </div>
-                            <div class="gift-bow">
-                                <div class="bow-left"></div>
-                                <div class="bow-right"></div>
-                                <div class="bow-knot"></div>
-                            </div>
-                        </div>
-                                    </div>
-
-                    <!-- Gift 2 -->
-                    <div class="gift-portal" id="gift-2" data-scene="6">
-                        <div class="gift-box gift-box--lavender">
-                            <div class="gift-lid">
-                                <div class="gift-lid-ribbon"></div>
-                            </div>
-                            <div class="gift-body">
-                                <div class="gift-body-ribbon"></div>
-                            </div>
-                            <div class="gift-bow">
-                                <div class="bow-left"></div>
-                                <div class="bow-right"></div>
-                                <div class="bow-knot"></div>
-                            </div>
-                        </div>
-                                    </div>
-
-                    <!-- Gift 3 -->
-                    <div class="gift-portal" id="gift-3" data-scene="7">
-                        <div class="gift-box gift-box--mint">
-                            <div class="gift-lid">
-                                <div class="gift-lid-ribbon"></div>
-                            </div>
-                            <div class="gift-body">
-                                <div class="gift-body-ribbon"></div>
-                            </div>
-                            <div class="gift-bow">
-                                <div class="bow-left"></div>
-                                <div class="bow-right"></div>
-                                <div class="bow-knot"></div>
-                            </div>
-                        </div>
-                                    </div>
-
-                </div>
-
-                <div class="gifts-rule gifts-rule--bottom"></div>
-
-            </article>
-        </div>
-
-    </section>
-
-    <!-- Scene 5: Sliding Puzzle -->
-    <section class="scene" id="scene-5">
-
-        <div class="puzzle-wrapper" id="puzzle-wrapper">
-
-            <h2 class="puzzle-title" id="puzzle-title">Solve to see the full picture!</h2>
-
-            <!-- Always-visible back button -->
-            <button class="puzzle-persist-back-btn" id="puzzle-persist-back">← Back to Gifts</button>
-
-            <!-- The 3×3 grid; tiles injected by JS -->
-            <div class="puzzle-board" id="puzzle-board"></div>
-
-            <!-- Solve overlay — fades in on completion -->
-            <div class="puzzle-solved" id="puzzle-solved">
-                <p class="puzzle-solved-text">We complete each other</p>
-                <div class="puzzle-hearts">
-                    <span>💖</span><span>💖</span><span>💖</span>
-                </div>
-                <button class="puzzle-back-btn" id="puzzle-back-btn">← Back to Gifts</button>
-            </div>
-
-        </div>
-
-    </section>
-    <!-- Scene 6: Word Search -->
-    <section class="scene" id="scene-6">
-        <div class="wordsearch-wrapper" id="wordsearch-wrapper">
-
-            <h2 class="ws-title">Highlights of Our Last Year</h2>
-
-            <!-- Grid injected by JS -->
-            <div class="ws-grid" id="ws-grid"></div>
-
-            <!-- Word bank — first letter only until found -->
-            <div class="ws-bank" id="ws-bank"></div>
-
-            <button class="puzzle-persist-back-btn ws-back-btn" id="ws-back-btn">← Back to Gifts</button>
-
-        </div>
-    </section>
-    <!-- Scene 7: YouTube Video -->
-    <section class="scene" id="scene-7">
-        <div class="video-wrapper" id="video-wrapper">
-
-            <h2 class="video-title">A Blast into the Past</h2>
-
-            <!--
-                Replace VIDEO_ID below with your YouTube video ID.
-                e.g. for https://youtube.com/watch?v=dQw4w9WgXcQ → use dQw4w9WgXcQ
-            -->
-            <div class="video-frame-wrap">
-                <iframe
-                    id="yt-player"
-                    class="video-iframe"
-                    src="https://www.youtube.com/embed/B-6jWlL2kcA"
-                    title="A Blast into the Past"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
-            </div>
-
-            <div class="video-actions">
-                <button class="puzzle-persist-back-btn video-back-btn" id="video-back-btn">← Back to Gifts</button>
-                <button class="video-continue-btn" id="video-continue-btn">Continue →</button>
-            </div>
-
-        </div>
-    </section>
-
     <!-- Scene 8: The End -->
     <section class="scene" id="scene-8">
         <div class="ending-wrapper" id="ending-wrapper">
             <p class="ending-line ending-line--1" id="ending-l1">The End!</p>
-            <p class="ending-line ending-line--2" id="ending-l2">Can't wait to spend the rest of</p>
-            <p class="ending-line ending-line--3" id="ending-l3">Valentine's Day with my Babes.</p>
+            <p class="ending-line ending-line--2" id="ending-l2">Have the Best Mother's Day</p>
             <div class="ending-hearts" id="ending-hearts">
                 <span>💖</span><span>🌸</span><span>💕</span><span>✨</span><span>💗</span>
             </div>
