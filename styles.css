@@ -2,10 +2,10 @@
    CSS VARIABLES & RESET
    ======================================== */
 :root {
-    /* Pastel romantic background */
-    --bg-1: #ffe4ef;
-    --bg-2: #fcd5e8;
-    --bg-3: #f9c6e0;
+    /* Pastel light blue background */
+    --bg-1: #d4ecff;
+    --bg-2: #b8ddff;
+    --bg-3: #9ccfff;
 
     /* Envelope — warm cream / blush */
     --env-body:        #fde8d8;
@@ -48,7 +48,7 @@ body {
     min-height: 100vh;
     overflow: hidden;
     background:
-        radial-gradient(circle, rgba(255,160,200,0.18) 1px, transparent 1px),
+        radial-gradient(circle, rgba(100,180,255,0.18) 1px, transparent 1px),
         linear-gradient(160deg, var(--bg-1) 0%, var(--bg-2) 50%, var(--bg-3) 100%);
     background-size: 20px 20px, 100% 100%;
     image-rendering: pixelated;
@@ -524,7 +524,7 @@ body {
    ======================================== */
 #scene-8 {
     background:
-        radial-gradient(circle, rgba(255,160,200,0.18) 1px, transparent 1px),
+        radial-gradient(circle, rgba(100,180,255,0.18) 1px, transparent 1px),
         linear-gradient(160deg, var(--bg-1) 0%, var(--bg-2) 50%, var(--bg-3) 100%);
     background-size: 20px 20px, 100% 100%;
 }

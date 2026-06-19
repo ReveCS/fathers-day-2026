@@ -128,7 +128,7 @@ const Scene1 = {
 // ========================================
 const Scene2 = {
 
-    SALUTATION: 'Dear Mom,',
+    SALUTATION: 'Dear Dad,',
 
     init() {
         this.paper   = document.getElementById('letter-paper');
